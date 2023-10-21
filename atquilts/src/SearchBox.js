@@ -2,10 +2,10 @@ import React from "react";
 
 const SearchBox = ({searchChange}) => {
     return(
-        <div className='pa2' >
+        <div style={{fontFamily:"papyrus"}} className='pa2' >
             <input className='pa3 ba b--lightest-blue '
                    type='search'
-                   placeholder='Search patterns'
+                   placeholder='Search Patterns'
                    onChange={searchChange}/>
         </div>
     );

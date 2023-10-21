@@ -6,9 +6,10 @@ function ComingSoon() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Coming Soon
-        </p>
+        <h2 className="underline" style={{fontFamily:"Lucida Handwriting"}}>
+          Athena Lynn Quilts
+        </h2>
+          <p className={"underline"} style={{fontFamily:"Lucida Handwriting"}}>Coming Soon</p>
 
       </header>
     </div>

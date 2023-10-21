@@ -19,7 +19,7 @@ function PatternSearch () {
 
     return(
         <div className='tc'>
-            <h1 className='ma0 pa4'>Pattern Search</h1>
+            <h1 style={{fontFamily:"Lucida Handwriting"}} className='underline ma0 pa4'>Pattern Search</h1>
             <SearchBox searchChange={onSearchChange}/>
             <CardList patterns={filteredpatterns} />
         </div>

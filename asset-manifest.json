@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alquilts/static/css/main.e73fc08a.css",
+    "main.js": "/alquilts/static/js/main.8e86631e.js",
+    "static/js/787.d76c18fe.chunk.js": "/alquilts/static/js/787.d76c18fe.chunk.js",
+    "static/media/hi_def_logo.png": "/alquilts/static/media/hi_def_logo.ab78b8243f8106651506.png",
+    "index.html": "/alquilts/index.html",
+    "main.e73fc08a.css.map": "/alquilts/static/css/main.e73fc08a.css.map",
+    "main.8e86631e.js.map": "/alquilts/static/js/main.8e86631e.js.map",
+    "787.d76c18fe.chunk.js.map": "/alquilts/static/js/787.d76c18fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e73fc08a.css",
+    "static/js/main.8e86631e.js"
+  ]
+}

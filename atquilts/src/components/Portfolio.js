@@ -1,11 +1,9 @@
 import React, {useState} from "react";
-import ComingSoon from "../comingSoon";
-import {works} from "../portfolioList";
 import PortfolioCardList from "./PortfolioCardList";
 
-const Portfolio = () => {
+const Portfolio = ({quilts}) => {
 
-    const [quilts , setPatterns] = useState(works)
+
 
     return (
         <div className='tc'>

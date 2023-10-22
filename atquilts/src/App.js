@@ -1,20 +1,16 @@
 import React, { useState } from "react";
 import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
 import Footer from "./components/footer";
 import Home from "./components/home";
 import Navbar from "./components/Navbar";
 import PatternSearch from "./components/PatternSearch";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
-import Login from "./components/Login";
 import {works} from "./portfolioList";
 
-
-
-
-
 function App() {
-    const [quilts , setPatterns] = useState(works)
+    const quilts = works
 
     const [route , setRoute] = useState("home")
 
@@ -22,11 +18,8 @@ function App() {
         setRoute(route);
     }
 
-
-
     if (route === "home")
         return (
-
             <div className="alquilts">
                 <Navbar onRouteChange={onRouteChange}/>
                 <Home quilts={quilts}/>
@@ -65,11 +58,11 @@ function App() {
                 <Footer />
             </div>
         );
-    if (route === "login")
+    if (route === "contact")
         return (
             <div className="alquilts">
                 <Navbar onRouteChange={onRouteChange}/>
-                <Login  />
+                <Contact />
                 <Footer />
             </div>
         );

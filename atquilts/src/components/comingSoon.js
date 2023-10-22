@@ -1,5 +1,5 @@
-import logo from './hi_def_logo.png';
-import './comingSoon.css';
+import logo from '../hi_def_logo.png';
+import '../comingSoon.css';
 
 function ComingSoon() {
   return (

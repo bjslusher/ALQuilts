@@ -1,9 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import PortfolioCardList from "./PortfolioCardList";
 
 const Portfolio = ({quilts}) => {
-
-
 
     return (
         <div className='tc'>

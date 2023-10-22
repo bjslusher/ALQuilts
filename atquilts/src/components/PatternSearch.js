@@ -1,12 +1,12 @@
 import React, {useState} from "react";
-import SearchBox from "../SearchBox";
-import CardList from "../CardList";
+import SearchBox from "./SearchBox";
+import CardList from "./CardList";
 import {backs} from "../patterns";
 
 function PatternSearch () {
 
     const [searchfield , setSearchfield] = useState("")
-    const [patterns , setPatterns] = useState(backs)
+    const patterns = backs
     const onSearchChange = (event) => {
         setSearchfield(event.target.value)
 

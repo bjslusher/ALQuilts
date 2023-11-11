@@ -14,9 +14,19 @@ const Services = () => {
                                     <h1 className="f5 f4-ns mv0">Computerized Edge to Edge Quilting</h1>
                                 </div>
                             </div>
-                            <p className="f6 lh-copy measure center mt2 mid-gray">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
+                            <hr/>
+                            <ul className="f6 lh-copy measure  mt2 mid-gray">
+                                <li>
+                                    section 1
+                                </li>
+                                <li>
+                                    section 2
+                                </li>
+                                <li>
+                                    section 3
+                                </li>
+                            </ul>
+
                         </div>
                 </article>
                 <article className="dib br3 pa3 ma2 grow bw2 shadow-5-l">
@@ -24,12 +34,21 @@ const Services = () => {
                         <div className="pa2 ph3-ns pb3-ns">
                             <div className="dt w-100 mt1">
                                 <div className="dtc">
-                                    <h1 className="f5 f4-ns mv0">Custom Computerized Quilting</h1>
+                                    <h1 className="f5 f4-ns mv0">---Custom Computerized Quilting---</h1>
                                 </div>
                             </div>
-                            <p className="f6 lh-copy measure center mt2 mid-gray">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
+                            <ol className="f6 lh-copy measure  mt2 mid-gray">
+                                <li>
+                                    section 1
+                                </li>
+                                <li>
+                                    section 2
+                                </li>
+                                <li>
+                                    section 3
+                                </li>
+                            </ol>
+
                         </div>
                 </article>
                 <article className="dib br3 pa3 ma2 grow bw2 shadow-5-l">
@@ -37,7 +56,7 @@ const Services = () => {
                     <div className="pa2 ph3-ns pb3-ns">
                         <div className="dt w-100 mt1">
                             <div className="dtc">
-                                <h1 className="f5 f4-ns mv0">Heirloom Free-Motion Quilting</h1>
+                                <h1 className="underline f5 f4-ns mv0">Heirloom Free-Motion Quilting</h1>
                             </div>
                         </div>
                         <p className="f6 lh-copy measure mt2 mid-gray center">
